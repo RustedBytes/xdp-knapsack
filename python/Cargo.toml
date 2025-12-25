@@ -1,0 +1,13 @@
+[package]
+name = "xdp_knapsack_py"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+name = "xdp_knapsack"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.21", features = ["extension-module", "abi3-py310"] }
+xdp_knapsack = { path = ".." }
