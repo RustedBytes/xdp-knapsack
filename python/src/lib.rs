@@ -171,6 +171,7 @@ fn modified_greedy_pmax(items: Vec<PyItemInput>, capacity: f64) -> PyResult<PyKn
 
 #[pymodule]
 fn xdp_knapsack(m: &Bound<'_, PyModule>) -> PyResult<()> {
+    m.add("__version__", env!("CARGO_PKG_VERSION"))?;
     m.add_class::<PyItem>()?;
     m.add_class::<PyKnapsackResult>()?;
     m.add_function(wrap_pyfunction!(solve_xdp_optimized, m)?)?;

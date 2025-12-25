@@ -4,11 +4,11 @@ build-backend = "maturin"
 
 [project]
 name = "xdp_knapsack"
-version = "0.1.0"
 description = "Python bindings for XDP knapsack solvers."
 readme = "README.md"
 requires-python = ">=3.10"
 authors = [{ name = "Yehor Smoliakov" }]
+dynamic = ["version"]
 
 [tool.maturin]
 bindings = "pyo3"
