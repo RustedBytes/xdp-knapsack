@@ -1,0 +1,25 @@
+[package]
+name = "xdp_knapsack"
+version = "0.1.0"
+edition = "2021"
+authors = ["Yehor Smoliakov"]
+
+[dependencies]
+rayon = "1.10" 
+
+rand = "0.8"
+rand_pcg = "0.3"
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bench]]
+name = "xdp_bench"
+harness = false
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+strip = true
