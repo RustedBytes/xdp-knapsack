@@ -3,6 +3,8 @@
 Experimental 0/1 knapsack implementations in Rust, focused on an optimized XDP
 approximation plus supporting heuristics.
 
+Paper: An O($nlogn$) approximate knapsack algorithm by Nick Dawes
+
 ## Features
 - Optimized XDP solver with optional item selection backtracking.
 - XDP approximation with error bound based on a greedy fractional upper bound.
