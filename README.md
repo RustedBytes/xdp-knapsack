@@ -1,5 +1,9 @@
 # xdp_knapsack
 
+[![Crates.io Version](https://img.shields.io/crates/v/xdp-knapsack)](https://crates.io/crates/xdp-knapsack)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-yellow.svg)](https://github.com/RustedBytes/xdp-knapsack/blob/master/LICENSE)
+
+
 Experimental 0/1 knapsack implementations in Rust, focused on optimized XDP
 approximations plus supporting heuristics.
 

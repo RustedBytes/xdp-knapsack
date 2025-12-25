@@ -1,9 +1,12 @@
 [package]
-name = "xdp_knapsack"
+name = "xdp-knapsack"
 version = "0.1.0"
 edition = "2021"
 authors = ["Yehor Smoliakov"]
 license = "MIT"
+description = "Experimental 0/1 knapsack implementations in Rust focused on optimized XDP approximations and heuristics."
+repository = "https://github.com/RustedBytes/xdp-knapsack"
+homepage = "https://github.com/RustedBytes/xdp-knapsack"
 
 [dependencies]
 rayon = "1.10" 
