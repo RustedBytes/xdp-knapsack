@@ -13,10 +13,6 @@ rand_pcg = "0.3"
 [dev-dependencies]
 criterion = "0.5"
 
-[[bench]]
-name = "xdp_bench"
-harness = false
-
 [profile.release]
 opt-level = 3
 lto = "fat"
