@@ -3,6 +3,7 @@ name = "xdp_knapsack"
 version = "0.1.0"
 edition = "2021"
 authors = ["Yehor Smoliakov"]
+license = "MIT"
 
 [dependencies]
 rayon = "1.10" 
